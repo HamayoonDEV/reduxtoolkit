@@ -1,0 +1,46 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    border-bottom: 3px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navname h1{
+    color: purple;
+    cursor: pointer;
+    
+}
+
+.navbarmenu ul{
+    display: flex;
+    align-items: center;
+    
+}
+.navbarmenu ul li{
+    list-style-type: none;
+    margin-left: 1rem;
+    color: gray;
+    font-weight: 400;
+    cursor: pointer;
+}
+.navbarsearch input{
+    width: 35rem;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 15px;
+    height: 1.8rem;
+    text-align: center;
+    color: grey;
+}
+.navprofile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.navprofile span{
+    font-weight: 500;
+}
+.navprofile .profilepic{
+    margin-right: 0.8rem;
+}
