@@ -1,0 +1,84 @@
+.feed{
+    margin-top: 5rem;
+    flex: 1;
+    width: 1rem;
+    margin-left: 17rem;
+    
+}
+.feedtop span{
+    font-size: 25px;
+    font-weight: 400;
+}
+.feedtop p{
+    margin-top: 1rem;
+    background-color: lightyellow;
+    padding: 2.5px;
+    object-fit: contain;
+    width: 40rem;
+}
+.deletebtn{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.deletebtn:hover{
+    opacity: 1;
+}
+.feedhr{
+    margin: 0.8rem;
+    width: 50rem;
+}
+.feedbottom{
+    margin-top: 1rem;
+    align-items: center;
+
+}
+.feedbottom .profile{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.feedbottom .avatar{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.feedbottom .avatar span{
+    color: green;
+    margin-left: 0.5rem;
+}
+.feedbottom form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+.feedbottom form label{
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.feedbottom form input{
+    width: 15rem;
+    height: 1.8rem;
+    margin-bottom: 1rem;
+    outline: none;
+    color: gray;
+}
+.feedbottom form .updatebtn{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 5rem;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.feedbottom form .updatebtn:hover{
+    opacity: 1;
+}

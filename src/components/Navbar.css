@@ -5,6 +5,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 .navname h1{
     color: purple;
@@ -32,6 +35,20 @@
     height: 1.8rem;
     text-align: center;
     color: grey;
+}
+@media screen and (max-width:1060px) {
+    .navbarsearch input{
+        width: 10rem;
+    }
+   .navbarmenu ul li{
+    display: none;
+   }
+   .navname h1{
+    font-size: 20px;
+   }
+   .navbarsearch input{
+    margin-left: -2rem;
+   }
 }
 .navprofile{
     display: flex;

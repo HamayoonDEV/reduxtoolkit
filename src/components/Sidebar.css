@@ -1,0 +1,21 @@
+.sidebar{
+    width: 15rem;
+    margin-top: 5rem;
+    height: calc(100vh - 70px);
+    border-right: 1px solid gray;
+    position: fixed;
+}
+
+
+.sidebarlist ul li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.sidebarlist ul li span{
+    margin-left: 1rem;
+}

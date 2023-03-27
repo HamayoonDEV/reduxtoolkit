@@ -2,8 +2,10 @@ import React from "react";
 import "./Navbar.css";
 import { Avatar } from "@mui/material";
 import hamayoon from "../images/hamayoon.jpg";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
+  const name = useSelector((state) => state.name);
   return (
     <div className="navbar">
       <div className="navname">
@@ -21,7 +23,7 @@ const Navbar = () => {
       </div>
       <div className="navprofile">
         <Avatar src={hamayoon} className="profilepic" />
-        <span>Hamayoon</span>
+        <span>{name}</span>
       </div>
     </div>
   );
